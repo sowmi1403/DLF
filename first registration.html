@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <img src="logovandi.png" alt="Logo of Vandikaran" height="150px" width="200px">
+        <title>New user</title>
+        <link rel="icon" href="logovandi.png">
+        <link rel="stylesheet" href="styling.css">
+
+    </head>
+    <body>
+        <h1 style="color:rgb(197, 134, 39);">VANDIKARAN RESTAURANT</h1>
+        <p><i style="color:rgb(52, 6, 6);">Welcome to our culinary haven, where your cravings meet satisfaction with evey click!.</i></p>
+        <p> <strong>Welcome to our food order webpage </strong> <p> 
+
+        <form action="registration.html" method="get">
+            <div class="abc">
+                <br>
+            <div>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" placeholder="Enter your name"required>
+            </div>
+            <br>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" required>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="Male" value="Male" required> 
+                <label for="Male">Male</label>
+                <input type="radio" name="gender"id="Female" value="Female" required> 
+                <label for="Female">Female</label>
+            </div>
+            <br>
+            <div>
+                <label for="mobilenumber">Mobile No:</label>
+                <input type="number" id="mobilenumber" placeholder="Enter your mobile number" maxlength="10"required>
+            </div>
+            <br>
+            <div>
+                <label for="otp">Otp:</label>
+                <input type="number" id="otp" placeholder="Enter otp sent to the mobile number" maxlength="6"required>
+            </div>
+            <br>
+            <div> 
+                <label for="Username">Username:</label>
+                <input type="text" id="Username" placeholder="Enter your username" maxlength="6"required>
+            </div>
+            <br>
+            <div>
+                <label for="Password">Password:</label>
+                <input type="password" id="Password" Placeholder="Enter password" maxlength="8" required>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="condition"required>
+                <label for="condition"><a href="registration.html">accept the terms and condition</a></label>
+            </div>
+            <br>
+            <div>
+                <label for="Payment">Payment Mode:</label>
+                <select name="" id="Payment" required>
+                    <option value="">Select</option>
+                    <option value="">UPI</option>
+                    <option value="">Cash on Delivery</option>
+                    <option value="">Debit Card</option>
+                    <option value="">Credit Card</option>
+                </select>
+             </div>
+             <br>
+            <div>
+                <input type="submit">
+            </div>
+            <br>
+        </div>
+        
+        </form>
+    </body>
+</html>
